@@ -27,3 +27,5 @@ KoroGold is a small, sleek browser extension that gives **Pekora.zip** a modern 
 ## Why KoroGold
 
 Korone’s site is fun, but a little dated. KoroGold makes it **feel alive again** while staying faithful to the original vibe. Perfect for fans who like sleek, readable layouts without losing the charm.  
+
+> Current Version: **0.1** BETA
