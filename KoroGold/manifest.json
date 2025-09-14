@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "KoroGold",
+  "version": "1.0.0",
+  "description": "A redesign of Korone/Pekora, Inspired by RoGold",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://www.pekora.zip/*",
+    "https://pekora.zip/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.pekora.zip/*",
+        "https://pekora.zip/*"
+      ],
+      "css": ["styles.css"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Korone Gaming Enhanced"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["assets/*"],
+      "matches": ["https://www.pekora.zip/*", "https://pekora.zip/*"]
+    }
+  ]
+}
