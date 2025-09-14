@@ -14,7 +14,7 @@ KoroGold is a small, sleek browser extension that gives **Pekora.zip** a modern 
 - Subtle animations that don’t distract  
 - Fully fan-made, 100% safe  
 
-> KoroGold is not affiliated with Korone, Pekora, or Project X. Inspired by the Roblox revival **RoGold**.  
+> KoroGold is not affiliated with Korone, Pekora, or Project X. Inspired by the Roblox extension **RoGold**.  
 
 ## Installation
 
